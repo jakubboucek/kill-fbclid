@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Kill fbclid",
+    "description": "Extension is removing ?fbclid= parameter from URL",
+    "version": "0.1.0",
+    "author": "Jakub Bouček",
+    "homepage_url": "https://github.com/jakubboucek/kill-fbclid",
+    "icons": {
+        "16": "fcuk_16.png",
+        "48": "fcuk_48.png",
+        "128": "fcuk_128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*","https://*/*"],
+            "exclude_matches": ["https://www.facebook.com/*"],
+            "js": [
+                "fbclid.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
