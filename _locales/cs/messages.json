@@ -1,0 +1,8 @@
+{
+    "application_title": {
+        "message": "Kill fbclid"
+    },
+    "application_description": {
+        "message": "Rozšíření odstraňující parametr ?fbclid= z URL"
+    }
+}

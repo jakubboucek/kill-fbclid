@@ -1,8 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "Kill fbclid",
-    "description": "Extension is removing ?fbclid= parameter from URL",
-    "version": "0.1.0",
+    "name": "__MSG_application_title__",
+    "description": "__MSG_application_description__",
+    "version": "0.1.1",
+    "default_locale": "en",
     "author": "Jakub Bouček",
     "homepage_url": "https://github.com/jakubboucek/kill-fbclid",
     "icons": {
