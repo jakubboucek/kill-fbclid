@@ -4,5 +4,20 @@
     },
     "application_description": {
         "message": "Rozšíření odstraňující parametr ?fbclid= z URL"
+    },
+    "browser_action_title": {
+        "message": "Kill fbclid - doporučení"
+    },
+    "browser_action_popup": {
+        "message": "popup/cs.html"
+    },
+    "popup_document_header": {
+        "message": "Chcete i ochranu soukromí?"
+    },
+    "popup_document_descridption": {
+        "message": "Byla vydána nová varianta rozšíření, která blokuje sledování parametrů analytickými nástroji."
+    },
+    "popup_document_install_call": {
+        "message": "Instalujte:"
     }
 }
