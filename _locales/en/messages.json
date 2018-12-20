@@ -1,10 +1,8 @@
 {
     "application_title": {
-        "message": "Kill fbclid",
-        "description": "The title of the application, displayed in the web store."
+        "message": "Kill fbclid"
     },
     "application_description": {
-        "message": "Extension is removing ?fbclid= parameter from URL",
-        "description": "The description of the application, displayed in the web store."
+        "message": "Extension is removing ?fbclid= parameter from URL"
     }
 }
