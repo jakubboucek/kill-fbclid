@@ -1,10 +1,11 @@
 {
     "application_title": {
-        "message": "Kill fbclid",
-        "description": "The title of the application, displayed in the web store."
+        "message": "Kill fbclid PLUS"
     },
     "application_description": {
-        "message": "Extension is removing ?fbclid= parameter from URL",
-        "description": "The description of the application, displayed in the web store."
+        "message": "Extension is removing ?fbclid= parameter from URL and from all anylytics tools (it prevent to track your click from FB)"
+    },
+    "application_short_name": {
+        "message": "Kill fbclid"
     }
 }

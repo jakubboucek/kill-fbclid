@@ -2,7 +2,8 @@
     "manifest_version": 2,
     "name": "__MSG_application_title__",
     "description": "__MSG_application_description__",
-    "version": "1.0.0",
+    "short_name": "__MSG_application_short_name__",
+    "version": "0.1.0",
     "default_locale": "en",
     "author": "Jakub Bouček",
     "homepage_url": "https://github.com/jakubboucek/kill-fbclid",
@@ -11,14 +12,14 @@
         "48": "fcuk_48.png",
         "128": "fcuk_128.png"
     },
-    "content_scripts": [
-        {
-            "matches": ["http://*/*","https://*/*"],
-            "exclude_matches": ["https://www.facebook.com/*"],
-            "js": [
-                "fbclid.js"
-            ],
-            "run_at": "document_idle"
-        }
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "webNavigation",
+        "activeTab"
     ]
 }
