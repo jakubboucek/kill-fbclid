@@ -8,9 +8,9 @@
     "author": "Jakub Bouček",
     "homepage_url": "https://github.com/jakubboucek/kill-fbclid",
     "icons": {
-        "16": "fcuk_16.png",
-        "48": "fcuk_48.png",
-        "128": "fcuk_128.png"
+        "16": "fbclid_plus_16.png",
+        "48": "fbclid_plus_48.png",
+        "128": "fbclid_plus_128.png"
     },
     "background": {
         "scripts": [
