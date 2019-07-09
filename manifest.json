@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "__MSG_application_title__",
     "description": "__MSG_application_description__",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "default_locale": "en",
     "author": "Jakub Bouček",
     "homepage_url": "https://github.com/jakubboucek/kill-fbclid",
