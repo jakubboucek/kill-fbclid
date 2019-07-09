@@ -20,9 +20,5 @@
             ],
             "run_at": "document_idle"
         }
-    ],
-    "browser_action": {
-        "default_popup": "popup/popup.html",
-        "default_title": "__MSG_browser_action_title__"
-    }
+    ]
 }

@@ -4,8 +4,5 @@
     },
     "application_description": {
         "message": "Extension is removing ?fbclid= parameter from URL"
-    },
-    "browser_action_title": {
-        "message": "Kill fbclid - recommendation"
     }
 }
