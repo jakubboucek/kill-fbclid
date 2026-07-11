@@ -43,5 +43,5 @@ Pozn.: Extension tools fungují jen s pipe connection (MCP si spouští vlastní
 ## Release
 
 1. Zvýšit `version` v `manifest.json` (commit `Version X.Y.Z`)
-2. Není `deploy.sh` – ZIP pro Chrome Web Store se balí ručně (jen soubory v rootu + `_locales/`, bez dotfiles, `*.md`, `LICENSE`)
+2. `./deploy.sh` → `dist/release.zip` (soubory v rootu + `_locales/`, bez dotfiles, `*.sh`, `*.md`, `LICENSE`)
 3. Ručně nahrát do Chrome Web Store
