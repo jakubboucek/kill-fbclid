@@ -1,0 +1,5 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+.mcp.json export-ignore
+CLAUDE.md export-ignore
+deploy.sh export-ignore
