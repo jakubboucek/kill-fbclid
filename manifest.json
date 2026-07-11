@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "__MSG_application_title__",
     "description": "__MSG_application_description__",
     "version": "1.0.4",
